@@ -1,18 +1,18 @@
 /*
- * (c) Copyright Ascensio System SIA 2010-2019
+ * (c) Copyright The Cloud Market 2010-2019
  *
  * This program is a free software product. You can redistribute it and/or
  * modify it under the terms of the GNU Affero General Public License (AGPL)
  * version 3 as published by the Free Software Foundation. In accordance with
  * Section 7(a) of the GNU AGPL its Section 15 shall be amended to the effect
- * that Ascensio System SIA expressly excludes the warranty of non-infringement
+ * that The Cloud Market expressly excludes the warranty of non-infringement
  * of any third-party rights.
  *
  * This program is distributed WITHOUT ANY WARRANTY; without even the implied
  * warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR  PURPOSE. For
  * details, see the GNU AGPL at: http://www.gnu.org/licenses/agpl-3.0.html
  *
- * You can contact Ascensio System SIA at 20A-12 Ernesta Birznieka-Upisha
+ * You can contact The Cloud Market at 20A-12 Ernesta Birznieka-Upisha
  * street, Riga, Latvia, EU, LV-1050.
  *
  * The  interactive user interfaces in modified source and object code versions
@@ -125,7 +125,7 @@ void CMainWindowImpl::refreshAboutVersion()
     _json_obj["appname"]    = ABOUT_PAGE_APP_NAME;
 #else
     // _json_obj["appname"]    = WINDOW_NAME;
-    _json_obj["appname"]    = "ONLYOFFICE Desktop Editors";
+    _json_obj["appname"]    = "The Cloud Market Office";
 #endif
     _json_obj["rights"]     = ABOUT_COPYRIGHT_STR;
     _json_obj["link"]       = URL_SITE;
